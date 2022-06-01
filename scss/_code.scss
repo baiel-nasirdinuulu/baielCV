@@ -1,8 +1,5 @@
 @import "./vars";
 .code {
-  &__inner {
-    //b
-  }
   &__title {
     text-transform: capitalize;
     font-size: 30px;
@@ -31,7 +28,6 @@
   }
   &__example {
     color: $main-color;
-    margin: 30px 0px;
 
     font-size: 18px;
   }

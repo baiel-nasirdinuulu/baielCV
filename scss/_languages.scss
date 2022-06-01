@@ -1,7 +1,5 @@
 @import "./vars";
 .languages {
-  &__inner {
-  }
   &__title1 {
     color: $second-color;
     text-align: center;
@@ -10,7 +8,7 @@
     text-transform: capitalize;
   }
   &__menu {
-    margin: 0;
+    margin: 5px;
     padding: 0;
     list-style: none;
     display: flex;
@@ -24,6 +22,7 @@
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 50px;
+    margin-right: 5px;
   }
   &__span {
     color: $second-color;
