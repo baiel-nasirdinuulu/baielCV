@@ -1,0 +1,28 @@
+@import "./vars";
+.skills {
+  background-color: $second-color;
+  &__inner {
+    padding-bottom: 60px;
+  }
+  &__title {
+    color: $main-color;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 80px;
+  }
+  &__menu {
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__list {
+    padding: 10px 30px;
+    background-color: #3764a3;
+    border-radius: 5px;
+  }
+}

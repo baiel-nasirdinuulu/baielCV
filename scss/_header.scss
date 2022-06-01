@@ -1,0 +1,191 @@
+@import "vars";
+.header {
+  background-color: $second-color;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+
+  position: relative;
+}
+.header__logo {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+}
+.header__menu {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+  color: $main-color;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18 px;
+  line-height: 16px;
+  padding: 5px 10px;
+
+  transition: all 0.4s;
+  &:hover {
+    border-bottom: 2px solid rgb(254, 254, 254);
+  }
+}
+.registr__link {
+  padding: 15px 20px;
+  border-radius: 36px;
+  text-decoration: none;
+  background-color: $second-color;
+  color: white;
+  margin-left: 42px;
+  transition: all 0.4s;
+  &:hover {
+    color: rgb(236, 9, 9);
+    background-color: aquamarine;
+  }
+}
+
+.registr__link1 {
+  width: 0px;
+
+  text-decoration: none;
+  color: $main-color;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  transition: all 0.4s;
+  &:hover {
+    color: rgb(236, 9, 9);
+  }
+}
+
+.menu__showder {
+  position: absolute;
+  top: 85px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 10px;
+
+  margin: 0;
+  padding: 10px 10px;
+}
+
+@media screen and (min-width: 1151px) {
+  .container {
+    width: 100%;
+  }
+  .menu__showder {
+    display: none;
+  }
+  .header__menu {
+    position: static;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+  }
+  .button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 100%;
+  }
+  .button {
+    display: flex;
+  }
+  .menu__showder {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+  .button {
+    display: flex;
+    float: right;
+  }
+  .menu__showder {
+    width: 100%;
+  }
+  .registr {
+    position: relative;
+    position: absolute;
+    top: 35px;
+    left: 150px;
+  }
+  .registr__link {
+    padding: 8px;
+    margin: 0;
+    background-color: rgb(209, 209, 209);
+    color: $main-color;
+    position: absolute;
+    top: 55px;
+    left: 0;
+  }
+  .registr__link1 {
+    padding: 0;
+    margin: 0;
+
+    background-color: rgb(209, 209, 209);
+    color: $main-color;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 50px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .button {
+    display: flex;
+  }
+  .menu__showder {
+    width: 100%;
+  }
+  .registr {
+    position: relative;
+    position: absolute;
+    top: 85px;
+
+    left: 140px;
+  }
+  .registr__link {
+    padding: 8px;
+
+    background-color: rgb(209, 209, 209);
+    color: $main-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .registr__link1 {
+    position: relative;
+    background-color: rgb(209, 209, 209);
+    color: $main-color;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+
+    border-radius: 15px;
+    padding: 5px;
+  }
+}

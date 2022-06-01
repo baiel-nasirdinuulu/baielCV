@@ -1,0 +1,47 @@
+@import "./vars";
+.education {
+  background-color: $second-color;
+  &__inner {
+    padding: 40px 0px;
+    text-align: center;
+  }
+  &__title {
+    color: $main-color;
+    font-size: 32px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  &__p {
+    color: $main-color;
+    font-size: 22px;
+    text-decoration: none;
+
+    margin-top: 50px;
+    text-transform: capitalize;
+    transition: all 0.4s;
+    &:hover {
+      color: #3764a3;
+    }
+  }
+}
+.footer {
+  &__inner {
+    text-align: center;
+    padding: 30px 0px;
+  }
+  &__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__list {
+    color: $second-color;
+    font-size: 18px;
+  }
+  &__a {
+    text-decoration: none;
+    font-size: 22px;
+    color: $second-color;
+    margin-left: 5px;
+  }
+}

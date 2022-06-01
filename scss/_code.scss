@@ -1,0 +1,38 @@
+@import "./vars";
+.code {
+  &__inner {
+    //b
+  }
+  &__title {
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: $second-color;
+    font-weight: 700;
+  }
+  &__info {
+    text-align: center;
+    color: $second-color;
+    font-style: italic;
+  }
+  &__second-info {
+    font-size: 22px;
+    color: rgb(2, 43, 248);
+  }
+  &__code {
+    margin: auto;
+    background-color: $second-color;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 60%;
+    min-height: 200px;
+  }
+  &__example {
+    color: $main-color;
+    margin: 30px 0px;
+
+    font-size: 18px;
+  }
+}

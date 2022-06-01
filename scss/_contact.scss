@@ -1,0 +1,83 @@
+@import "./vars";
+.contact {
+  &__inner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  &__title {
+    text-align: center;
+    text-transform: capitalize;
+
+    color: $second-color;
+    font-size: 32px;
+
+    margin-bottom: 50px;
+    font-weight: 700;
+    margin: 0;
+  }
+  &__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    flex-wrap: wrap;
+  }
+  &__h4 {
+    color: $second-color;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  &__p {
+    color: $second-color;
+    text-decoration: none;
+  }
+  &__item {
+    text-decoration: none;
+
+    color: $second-color;
+  }
+  &__contact {
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+  }
+  &__s {
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    background-image: url("../img/facebook.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &__a {
+    margin-top: 10px;
+    width: 60px;
+    height: 40px;
+    background-image: url("../img/insatgramm.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &__d {
+    margin-top: 10px;
+    width: 60px;
+    height: 40px;
+    background-image: url("../img/watsap.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &__f {
+    margin-top: 10px;
+    width: 60px;
+    height: 40px;
+    background-image: url("../img/teleg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

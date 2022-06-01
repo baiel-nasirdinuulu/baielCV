@@ -1,0 +1,33 @@
+@import "./vars";
+.languages {
+  &__inner {
+  }
+  &__title1 {
+    color: $second-color;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+  }
+  &__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  &__title {
+    color: $second-color;
+
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  }
+  &__span {
+    color: $second-color;
+    font-style: italic;
+    font-size: 16px;
+  }
+}
