@@ -2,6 +2,24 @@
 .header {
   background-color: $second-color;
 }
+.abr {
+  &::before {
+    background-image: url(../img/str.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 30px;
+    height: 30px;
+    padding: 40pxx;
+
+    border-radius: 50px;
+    content: "";
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+}
 .header__inner {
   display: flex;
   justify-content: space-between;

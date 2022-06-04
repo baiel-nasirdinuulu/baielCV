@@ -45,3 +45,37 @@
     margin-left: 5px;
   }
 }
+.edu {
+  position: relative;
+
+  padding-left: 50px;
+  &::before {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/alatoo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 0;
+  }
+}
+.edu {
+  position: relative;
+  padding-left: 50px;
+  padding-right: 40px;
+  &::after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/alatoo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    top: 0;
+  }
+}
