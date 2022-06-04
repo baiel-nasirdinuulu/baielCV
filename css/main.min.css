@@ -334,6 +334,48 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
 
+.lo {
+  position: relative;
+  padding-left: 40px; }
+  .lo::before {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/location.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0; }
+
+.pho {
+  position: relative;
+  padding-left: 40px; }
+  .pho::before {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/phone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0; }
+
+.em {
+  position: relative;
+  padding-left: 10px; }
+  .em::before {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/email.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0; }
+
 .skills {
   background-color: #174180; }
   .skills__inner {
@@ -342,7 +384,7 @@ body {
     color: #f8f0f0;
     text-transform: capitalize;
     text-align: center;
-    font-size: 30px;
+    font-size: 34px;
     padding-top: 80px; }
   .skills__menu {
     -webkit-box-pack: center;
@@ -354,13 +396,120 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: 0;
+    margin: 5px;
     padding: 0;
     list-style: none; }
   .skills__list {
+    font-size: 18px;
     padding: 10px 30px;
     background-color: #3764a3;
-    border-radius: 5px; }
+    border-radius: 5px;
+    margin: 5px; }
+
+.html {
+  position: relative;
+  padding-left: 40px; }
+  .html::before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-image: url("../img/html.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 7px; }
+
+.css {
+  position: relative;
+  padding-left: 40px; }
+  .css::before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-image: url("../img/css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 7px; }
+
+.js {
+  position: relative;
+  padding-left: 40px; }
+  .js::before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-image: url("../img/js.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 7px; }
+
+.git {
+  position: relative;
+  padding-left: 40px; }
+  .git::before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-image: url("../img/git.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 7px; }
+
+.github {
+  position: relative;
+  padding-left: 50px; }
+  .github::before {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    content: "";
+    background-image: url("../img/github.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 5px;
+    top: 0px; }
+
+.vs {
+  position: relative;
+  padding-left: 40px; }
+  .vs::before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-image: url("../img/vs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 7px; }
+
+.figma {
+  position: relative;
+  padding-left: 40px; }
+  .figma::before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background-image: url("../img/figma.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 7px; }
 
 .code__title {
   text-transform: capitalize;
@@ -385,13 +534,12 @@ body {
   background-color: #174180;
   margin-bottom: 40px;
   border-radius: 10px;
-  width: 60%;
+  max-width: 500px;
   min-height: 200px; }
 
 .code__example {
   color: #f8f0f0;
-  margin: 30px 0px;
-  font-size: 18px; }
+  font-size: 15px; }
 
 .languages__title1 {
   color: #174180;
@@ -401,7 +549,7 @@ body {
   text-transform: capitalize; }
 
 .languages__menu {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   list-style: none;
   display: -webkit-box;
@@ -418,12 +566,55 @@ body {
   color: #174180;
   font-size: 20px;
   text-transform: capitalize;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-right: 5px; }
 
 .languages__span {
   color: #174180;
   font-style: italic;
   font-size: 16px; }
+
+.en {
+  position: relative;
+  padding-left: 40px; }
+  .en::before {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/english.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0; }
+
+.rus {
+  position: relative;
+  padding-left: 40px; }
+  .rus::before {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/russia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0; }
+
+.kyr {
+  position: relative;
+  padding-left: 40px; }
+  .kyr::before {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/kyr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0; }
 
 .education {
   background-color: #174180; }
