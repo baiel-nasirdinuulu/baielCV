@@ -1,6 +1,20 @@
 .header {
   background-color: #174180; }
 
+.abr::before {
+  background-image: url(../img/str.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  padding: 40pxx;
+  border-radius: 50px;
+  content: "";
+  position: fixed;
+  right: 0;
+  bottom: 0; }
+
 .header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -655,3 +669,34 @@ body {
   font-size: 22px;
   color: #174180;
   margin-left: 5px; }
+
+.edu {
+  position: relative;
+  padding-left: 50px; }
+  .edu::before {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/alatoo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 7px;
+    top: 0; }
+
+.edu {
+  position: relative;
+  padding-left: 50px;
+  padding-right: 40px; }
+  .edu::after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-image: url("../img/alatoo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    top: 0; }
